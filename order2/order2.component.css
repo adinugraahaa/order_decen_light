@@ -1,0 +1,27 @@
+input{
+    height: 25px;
+}
+
+.span1{
+    max-width: 75px ;
+}
+.span2{
+    max-width: 125px;
+}
+
+th{
+    font-size: 14px;
+    padding: 0 1px 0 1px;
+}
+
+td{
+    font-size: 13px;
+    padding: 0 1px 0 1px;
+}
+
+tr:nth-child(1) > td:nth-child(2){
+    color: red;
+}
+tr:nth-child(2) > td:nth-child(2){
+    color: green;
+}

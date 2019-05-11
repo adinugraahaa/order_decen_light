@@ -1,0 +1,19 @@
+.nav .nav-link{
+    color: #fff;
+    background-color: rgb(93, 78, 177);
+    border-bottom: 1px solid #fff;
+  }
+  .nav .nav-link.active,
+  .nav .show > .nav-link {
+    color: #fff;
+    background-color:mediumslateblue;
+    border-bottom: 1px solid black;
+    }
+  
+  #pills-order1, #pills-order2{
+      min-height: 500px;
+  }
+
+  #order-pills-tab>li>a{
+    font-size: 13px;
+  }
